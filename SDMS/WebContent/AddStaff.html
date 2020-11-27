@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AddStaff</title>
+</head>
+<body background="backgrnd[2].gif" text=red >
+<table width="100%">
+		<tr height="90px">
+			<td width="40%"><center><img src="https://nkstudios.in/kce/new/wp-content/uploads/2020/01/KCELogo.png" alt="image not found" height="70px" width="60%"></center></td><td  width="20%"><center><a href="tel:+91-4222619005" >+91 -4222619005 <center></td><td width="20%"><center><a href="mailto:info@kce.ac.in"> info@kce.ac.in <center></td><td width="9%"><center><a href="CollagePage.jsp" > About us</center></td>
+		</tr>
+	</table>
+	<hr>
+	<button><a href="ViewStaffServlet">Back</a></button>
+	<button><a href="login.html">Logout</a></button>
+<form action="AddStaffServlet" method="post">
+	
+	<table cellspacing="0" cellpadding= "7" width = "40%" style=" border-radius: 5px;
+    padding: 0px; margin:auto; font-size:18px;  text-align:right">
+    	<tr><td colspan="2"><center><h3>Add New Staff</h3></center></td></tr>
+		<tr><td>Staff UserName</td><td><input type="text" placeholder="StaffUsername" name="name" required></td></tr>
+		<tr><td>Staff PassWord</td><td><input type="text" placeholder="StaffPassWord" name="pass" required></td></tr>
+		<tr><td colspan="2"><input type="submit" value="Save Staff"/></td></tr>
+	</table>
+</form>
+<br/>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AddStudent</title>
+</head>
+<body background="backgrnd[2].gif" text=red >
+<table width="100%">
+		<tr height="90px">
+			<td width="40%"><center><img src="https://nkstudios.in/kce/new/wp-content/uploads/2020/01/KCELogo.png" alt="image not found" height="70px" width="60%"></center></td><td  width="20%"><center><a href="tel:+91-4222619005" >+91 -4222619005 <center></td><td width="20%"><center><a href="mailto:info@kce.ac.in"> info@kce.ac.in <center></td><td width="9%"><center><a href="CollagePage.jsp" > About us</center></td>
+		</tr>
+	</table>
+	<hr>
+	<button><a href="ViewServlet">View Students</a></button>&nbsp&nbsp&nbsp&nbsp
+	<button><a href="login.html">Logout</a></button>
+<form action="SaveServlet" method="post">
+	
+	<table cellspacing="0" cellpadding= "7" width = "40%" style=" border-radius: 5px;
+    padding: 0px; margin:auto; font-size:18px;  text-align:right">
+    	<tr><td colspan="2"><center><h3>Add New Student</h3></center></td></tr>
+		<tr><td>Student Name</td><td><input type="text" placeholder="Studentname" name="name" required></td></tr>
+		<tr><td>Student Rollno</td><td><input type="text" placeholder="StudentRollno" name="rollno" required></td></tr>
+		<tr><td>Student Email</td><td><input type="text" placeholder="StudentEmail" name="email" required></td></tr>
+		<tr><td>Student Address</td><td><input type="text" placeholder="StudentAddress" name="address" required></td></tr>
+		<tr><td>CGPA</td><td><input type="text" placeholder="CGPA" name="cgpa" required></td></tr>
+		<tr><td>Attendance</td><td><input type="text" placeholder="Attendance" name="attendance" required></td></tr>
+		<tr><td colspan="2"><input type="submit" value="Save Student"/></td></tr>
+	</table>
+</form>
+<br/>
+
+</body>
+</html>
